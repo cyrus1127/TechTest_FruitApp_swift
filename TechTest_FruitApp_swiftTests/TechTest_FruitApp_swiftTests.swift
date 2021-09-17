@@ -18,8 +18,23 @@ class TechTest_FruitApp_swiftTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testConnection() throws {
-        
+    func testProductListDataConnection() throws {
+        ConnectionUtility.instance().getProductListData { (isSuccess:Bool) in
+            XCTAssertEqual(true , isSuccess)
+        }
+    }
+    
+    func testTimeCounting() throws {
+        let waitTil = 1.0
+        let exp = expectation(description: "Test after \(waitTil) seconds")
+        CommonUtility.instance().setTimemark()
+        let result = XCTWaiter.wait(for: [exp], timeout: waitTil)
+         if result == XCTWaiter.Result.timedOut {
+            let diffMS = CommonUtility.instance().getTimediff()
+            XCTAssertEqual( Int64((waitTil*1000)) , diffMS)
+         } else {
+             XCTFail("Delay interrupted")
+         }
     }
 
     func testPerformanceExample() throws {
