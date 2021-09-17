@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184911E826F2408800F8B70A /* FrultListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184911E726F2408800F8B70A /* FrultListRow.swift */; };
+		184911ED26F241A900F8B70A /* FrultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184911EC26F241A900F8B70A /* FrultList.swift */; };
+		186315CE26F23BD400DACEF2 /* FrultDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186315CD26F23BD400DACEF2 /* FrultDetail.swift */; };
 		18DA4F0226F0167300BC9F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F0126F0167300BC9F47 /* AppDelegate.swift */; };
 		18DA4F0426F0167300BC9F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F0326F0167300BC9F47 /* SceneDelegate.swift */; };
 		18DA4F0626F0167300BC9F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F0526F0167300BC9F47 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		18DA4F0E26F0167400BC9F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4F0C26F0167400BC9F47 /* LaunchScreen.storyboard */; };
 		18DA4F1926F0167500BC9F47 /* TechTest_FruitApp_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F1826F0167500BC9F47 /* TechTest_FruitApp_swiftTests.swift */; };
 		18DA4F2426F0167500BC9F47 /* TechTest_FruitApp_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F2326F0167500BC9F47 /* TechTest_FruitApp_swiftUITests.swift */; };
+		18DA4F3F26F0998100BC9F47 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F3E26F0998100BC9F47 /* CommonUtility.swift */; };
+		18DA4F4726F09C6200BC9F47 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4F4626F09C6200BC9F47 /* Datas.swift */; };
+		18F604ED26F146ED0026BE69 /* ConnectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F604EC26F146ED0026BE69 /* ConnectionUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184911E726F2408800F8B70A /* FrultListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrultListRow.swift; sourceTree = "<group>"; };
+		184911EC26F241A900F8B70A /* FrultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrultList.swift; sourceTree = "<group>"; };
+		186315CD26F23BD400DACEF2 /* FrultDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrultDetail.swift; sourceTree = "<group>"; };
 		18DA4EFE26F0167300BC9F47 /* TechTest_FruitApp_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechTest_FruitApp_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DA4F0126F0167300BC9F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DA4F0326F0167300BC9F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		18DA4F1F26F0167500BC9F47 /* TechTest_FruitApp_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechTest_FruitApp_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DA4F2326F0167500BC9F47 /* TechTest_FruitApp_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechTest_FruitApp_swiftUITests.swift; sourceTree = "<group>"; };
 		18DA4F2526F0167500BC9F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA4F3E26F0998100BC9F47 /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		18DA4F4626F09C6200BC9F47 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		18F604EC26F146ED0026BE69 /* ConnectionUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186315CC26F23B6900DACEF2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				186315CD26F23BD400DACEF2 /* FrultDetail.swift */,
+				184911E726F2408800F8B70A /* FrultListRow.swift */,
+				184911EC26F241A900F8B70A /* FrultList.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		18DA4EF526F0167300BC9F47 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,8 @@
 		18DA4F0026F0167300BC9F47 /* TechTest_FruitApp_swift */ = {
 			isa = PBXGroup;
 			children = (
+				186315CC26F23B6900DACEF2 /* UI */,
+				18DA4F3D26F098EF00BC9F47 /* Common */,
 				18DA4F0126F0167300BC9F47 /* AppDelegate.swift */,
 				18DA4F0326F0167300BC9F47 /* SceneDelegate.swift */,
 				18DA4F0526F0167300BC9F47 /* ViewController.swift */,
@@ -126,6 +150,16 @@
 				18DA4F2526F0167500BC9F47 /* Info.plist */,
 			);
 			path = TechTest_FruitApp_swiftUITests;
+			sourceTree = "<group>";
+		};
+		18DA4F3D26F098EF00BC9F47 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18DA4F3E26F0998100BC9F47 /* CommonUtility.swift */,
+				18DA4F4626F09C6200BC9F47 /* Datas.swift */,
+				18F604EC26F146ED0026BE69 /* ConnectionUtility.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +294,13 @@
 			files = (
 				18DA4F0626F0167300BC9F47 /* ViewController.swift in Sources */,
 				18DA4F0226F0167300BC9F47 /* AppDelegate.swift in Sources */,
+				18DA4F4726F09C6200BC9F47 /* Datas.swift in Sources */,
+				186315CE26F23BD400DACEF2 /* FrultDetail.swift in Sources */,
 				18DA4F0426F0167300BC9F47 /* SceneDelegate.swift in Sources */,
+				18F604ED26F146ED0026BE69 /* ConnectionUtility.swift in Sources */,
+				184911ED26F241A900F8B70A /* FrultList.swift in Sources */,
+				184911E826F2408800F8B70A /* FrultListRow.swift in Sources */,
+				18DA4F3F26F0998100BC9F47 /* CommonUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,8 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33F7655H3P;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 462AL4B3ZX;
 				INFOPLIST_FILE = TechTest_FruitApp_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.techtestFruitApp.TechTest-FruitApp-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "TestApp Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,8 +497,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33F7655H3P;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 462AL4B3ZX;
 				INFOPLIST_FILE = TechTest_FruitApp_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.techtestFruitApp.TechTest-FruitApp-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "TestApp Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
